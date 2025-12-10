@@ -7,7 +7,7 @@ from typing import Literal
 from constants import *
 from constants import SPECIES_DIR
 
-__all__ = ["load_input", "load_fasta", "select_species", ]
+__all__ = ["load_input", "load_fasta", "load_sepcies", ]
 
 
 def load_input(path) -> list[str]:
